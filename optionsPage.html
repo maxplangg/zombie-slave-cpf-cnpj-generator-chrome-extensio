@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zombie Slave - CPF/CNPJ Generator</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="optionsPage.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>
+				<img id="icon" src="" />
+				Zombie Slave - CPF/CNPJ Generator
+			</h1>
+			<div class="instrucoes">
+				<p>Coloque aqui conteudo javascript para ser executado apos a geracao de um CPF/CNPJ.</p>
+				<p>Utilize {cpfCnpj} como variável para o valor gerado pela extensão.</p>
+				<p>Isto é util se você quiser preencher o campo do fomulário automaticamente sempre precisar copiar e colar toda vez.</p>
+				<p>
+					Exemplo: <pre><code>document.getElementById("cnpj").value = {cpfCnpj}</code></pre>
+				</p>
+			</div>
+			<p>
+				<textarea id="scritpParaExecucao"></textarea>
+			</p>
+		</div>
+
+		<div id="status"></div>
+
+		<div class="linkProjeto">			
+			<a href="https://github.com/maxplangg/zombie-slave-cpf-cnpj-generator-chrome-extension" target="_black">Zombie Slave - CPF/CNPJ Generator</a>
+		</div>
+	</body>
+</html>
+

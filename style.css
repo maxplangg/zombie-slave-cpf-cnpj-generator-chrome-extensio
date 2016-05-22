@@ -1,0 +1,60 @@
+.popup {
+	width: 250px;
+	height: 200px;
+	overflow-x: hidden;
+	font-size: 14px;
+}
+
+.button {
+    background-color: #ccc;
+    color: #444;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0px;
+}
+
+.button:hover {
+    background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.linkProjeto {
+	text-align: right;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    right: 5px;
+}
+
+.linkProjeto a{
+	color: lightgray;
+    text-decoration: none;
+    font-size: 12px;    
+}
+
+.icon {
+    float: left;
+    margin-left: 10px;
+    opacity: 0.3;
+}
+
+#mensagem {
+	display: none;
+}
+
+#valorGerado {
+	border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
